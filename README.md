@@ -13,7 +13,7 @@ Updates:
 * Added in tiling and offset fields for all textures.
 * Added option to increase normal strength above 1 for mobile.
 
-![alt text](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHR1ZmJ1NnI0MWRqNGFhZDFjd3hwaTBobHNxd3Y1dGdkcHRqMjNibyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yK7ux4ttmxgt3LlCYp/giphy.gif "SkinGore URP - Up Close")
+![alt text](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWdncjgyZXg3dnBkMmticzh6c2hvNDR6dnZoMWVtd240N2Job3ZjNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dR5p3ymKmIJIi80Xm2/giphy.gif "SkinGore URP - Up Close")
 
 ## Demo
 
@@ -40,7 +40,7 @@ To add damage to your character, call `SkinGoreRenderer.AddDamage()`. Give it a 
 
 ## Performance
 
-![alt text](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW9sMnR2ZzVvYWNhZHpod3NsbmR2MGtxd28yNGw0YnA3bjJpdzl1ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/q7hs05optEYuXY8TAE/giphy.gif "SkinGore URP - 12 mannequins receiving random damage every few seconds on Quest 3")
+![alt text](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExamZjczVyeGk5MWdtbTZreHZtZTdvcXQ3b2RsMDFocHdzaWU0NzlrNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/flAVw1DfuVk8iMdHs7/giphy.gif "SkinGore URP - 12 mannequins receiving random damage every few seconds on Quest 3")
 
 The Skin Gore Renderer has two new performance focused inspector fields: 'Cooldown Frames' and 'Delay Between Stages'.
 
