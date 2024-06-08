@@ -13,8 +13,11 @@ Updates:
 * Added in tiling and offset fields for all textures.
 * Added option to increase normal strength above 1 for mobile.
 
+![alt text](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHR1ZmJ1NnI0MWRqNGFhZDFjd3hwaTBobHNxd3Y1dGdkcHRqMjNibyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yK7ux4ttmxgt3LlCYp/giphy.gif "SkinGore URP - Up Close")
 
 ## Demo
+
+![alt text](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeW15NnV2bmY4cjFjdjF1dW91OW1sZTkzcjhkOTFvdGp5aGd3eTNoNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/32zlEmWr64hEZSR9Fj/giphy.gif "SkinGore URP - Demo")
 
 SkinGore > Demo > SkinGoreDemo
 
@@ -36,6 +39,9 @@ To add damage to your character, call `SkinGoreRenderer.AddDamage()`. Give it a 
 
 
 ## Performance
+
+![alt text](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW9sMnR2ZzVvYWNhZHpod3NsbmR2MGtxd28yNGw0YnA3bjJpdzl1ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/q7hs05optEYuXY8TAE/giphy.gif "SkinGore URP - 12 mannequins receiving random damage every few seconds on Quest 3")
+
 The Skin Gore Renderer has two new performance focused inspector fields: 'Cooldown Frames' and 'Delay Between Stages'.
 
 'Cooldown Frames' is an optional feature to block additional damage updates for a set number of frames. For example, if you're aiming for 72 FPS and set cooldown frames to 31 FPS, then a player will have a half second cooldown before they are able to add visual damage to a character. If this isn't needed it can be set to 0.
