@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SkinGoreBase
-  m_Shader: {fileID: -6465566751694194690, guid: 4c56e28230d675c4db9c080286102b4c,
+  m_Name: SkinGoreBase_Low
+  m_Shader: {fileID: -6465566751694194690, guid: 649feba47f07c79458c42d98898dfd39,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -134,22 +134,22 @@ Material:
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
-    - _Detail: 12
+    - _Detail: 12.1
     - _DetailIntensity: 6.4
     - _DetailNormalMapScale: 1
     - _Displace_Mesh: 1
     - _Displacement_Intensity: 0
     - _DstBlend: 0
     - _EdgeGlossiness: 0.845
-    - _EdgeSize: 0.56
+    - _EdgeSize: 1.27
     - _Float: 6.1
     - _GlossMapScale: 1
     - _Glossiness: 0.933
     - _GlossyReflections: 1
     - _GoreSeed: 0
-    - _Hardness: 0.46
-    - _Metal: 1
-    - _Metal_1: 0.69
+    - _Hardness: 0.31
+    - _Metal: 0.613
+    - _Metal_1: 0
     - _Metallic: 0
     - _Mode: 0
     - _NrmStrength: 1.21
@@ -157,7 +157,7 @@ Material:
     - _Parallax: 0.02
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SkinGlossiness: 0.522
+    - _SkinGlossiness: 0.118
     - _SkinNrmStrength: 0.37
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1

@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7623638727837837967
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 5
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -20,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SkinGoreBase_Backup
-  m_Shader: {fileID: -6465566751694194690, guid: 2f9fd854d0500d04b9487cc88ca1b8d5,
+  m_Name: MetalGoreBase_High
+  m_Shader: {fileID: -6465566751694194690, guid: 4c56e28230d675c4db9c080286102b4c,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,6 +21,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Ambient_Occlusion:
+        m_Texture: {fileID: 2800000, guid: 53d56dbd792ad0247b47a601783f8605, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -43,8 +34,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailMap:
-        m_Texture: {fileID: 2800000, guid: 53d56dbd792ad0247b47a601783f8605, type: 3}
-        m_Scale: {x: 3, y: 3}
+        m_Texture: {fileID: 2800000, guid: 72b138f87b8f1bc45ae96f592428db38, type: 3}
+        m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
         m_Texture: {fileID: 0}
@@ -59,28 +50,28 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GoreDamage:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _GoreMap:
-        m_Texture: {fileID: 8400000, guid: 2e8a77bc089e76d42892d08d627267dc, type: 2}
+        m_Texture: {fileID: 2800000, guid: a0a596b3169e4aef9d48ae014275c451, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b98b83f15900699469ef2c2d8d601392, type: 3}
+        m_Texture: {fileID: 2800000, guid: aed312674c8297f4a9cffd1b116febc8, type: 3}
         m_Scale: {x: 3, y: 3}
         m_Offset: {x: 0, y: 0}
     - _Metallic:
-        m_Texture: {fileID: 2800000, guid: 72b138f87b8f1bc45ae96f592428db38, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6a0eabaa738511d418fd46a47311165d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Metallic_1:
+        m_Texture: {fileID: 2800000, guid: 6a0eabaa738511d418fd46a47311165d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 6ad74b2ef9c800745bdeaec92d3bd267, type: 3}
-        m_Scale: {x: 10, y: 10}
+        m_Texture: {fileID: 2800000, guid: aa0d5da64f2a5a140b9cd10020ecbb0e, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
@@ -90,16 +81,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Skin_Normal:
-        m_Texture: {fileID: 2800000, guid: 679c551808bc11d4bbc03966444f288f, type: 3}
+    - _SkinNormal:
+        m_Texture: {fileID: 2800000, guid: aa0d5da64f2a5a140b9cd10020ecbb0e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _Skin_Texture:
-        m_Texture: {fileID: 2800000, guid: a8e46e133f88a0a49ae06eea9226a4e9, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Texture2DAsset_75557ae0681047b6965d50ce90d91a77_Out_0:
-        m_Texture: {fileID: 0}
+    - _SkinTex:
+        m_Texture: {fileID: 2800000, guid: aed312674c8297f4a9cffd1b116febc8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -118,33 +105,46 @@ Material:
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
-    - _DetailIntensity: 6.2
+    - _Detail: 1.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _EdgeGlossiness: 0.845
-    - _EdgeSize: 2
+    - _EdgeGlossiness: 0
+    - _EdgeSize: 0.46
     - _GlossMapScale: 1
-    - _Glossiness: 0.979
+    - _Glossiness: 1
     - _GlossyReflections: 1
-    - _GoreSeed: 0
-    - _Hardness: 2
-    - _Metal: 0.965
+    - _Hardness: 0.75
+    - _Metal: 1
+    - _Metal_1: 0.796
     - _Metallic: 0
     - _Mode: 0
-    - _NrmStrength: 0.85
+    - _NrmStrength: 1.21
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _SkinGlossiness: 0.728
+    - _SkinNrmStrength: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.8018868, g: 0.506853, b: 0.506853, a: 1}
-    - _EdgeColor: {r: 0.16037738, g: 0, b: 0, a: 1}
+    - _Color: {r: 0, g: 0.8638592, b: 1, a: 1}
+    - _EdgeColor: {r: 0.17772509, g: 0.23584908, b: 0.14833274, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Skin_Color: {r: 1, g: 0.92622787, b: 0.9025157, a: 1}
-    - _UVadjustment: {r: 2.05, g: 2, b: 0, a: 0}
   m_BuildTextureStacks: []
+--- !u!114 &7145580358004393962
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5

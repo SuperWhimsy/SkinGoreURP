@@ -271,6 +271,7 @@ MonoBehaviour:
   goreMaterial: {fileID: 2100000, guid: 65a70deeff1db984284cb45b4d027b57, type: 2}
   goreMapResolution: 16
   cooldownFrames: 2
+  delayBetweenStages: 0.5
 --- !u!54 &249355751
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1532,6 +1533,7 @@ MonoBehaviour:
   goreMaterial: {fileID: 2100000, guid: 65a70deeff1db984284cb45b4d027b57, type: 2}
   goreMapResolution: 16
   cooldownFrames: 2
+  delayBetweenStages: 0.5
 --- !u!54 &1029835416
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1647,6 +1649,7 @@ MonoBehaviour:
   goreMaterial: {fileID: 2100000, guid: 65a70deeff1db984284cb45b4d027b57, type: 2}
   goreMapResolution: 16
   cooldownFrames: 2
+  delayBetweenStages: 0.5
 --- !u!54 &1134499971
 Rigidbody:
   m_ObjectHideFlags: 0
