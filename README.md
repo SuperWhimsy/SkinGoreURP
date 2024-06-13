@@ -37,8 +37,11 @@ Add a SkinGoreRenderer component to your character, and select a target mesh and
 
 To add damage to your character, call `SkinGoreRenderer.AddDamage()`. Give it a world space position, radius, and strength for the damage. All calculations are done on the GPU and are super fast, so don't worry about calling this a lot.
 
+## Shader Variants
 
-## Performance
+SkinGoreURP has two versions: high and low. While these should look very similar, SkinGore_URP_Low removes metallic textures, ambient occlusion texture, normal boosting, and 'hardness' to simplify even more for mobile hardware.
+
+## Performance Options
 
 ![alt text](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExamZjczVyeGk5MWdtbTZreHZtZTdvcXQ3b2RsMDFocHdzaWU0NzlrNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/flAVw1DfuVk8iMdHs7/giphy.gif "SkinGore URP - 12 mannequins receiving random damage every few seconds on Quest 3")
 
@@ -54,3 +57,4 @@ https://github.com/zulubo/SkinGore
 
 ## Changelog
 ### v1 / 6/7/24 - Initial release!
+### - Shader variants and cleanup
